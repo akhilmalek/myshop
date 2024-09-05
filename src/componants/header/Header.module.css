@@ -1,0 +1,29 @@
+/* src/components/Header.module.css */
+.header {
+  background-color: #fafafa;
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-weight: 600;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .navList li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navList li a:hover {
+    text-decoration: underline;
+  }
+  
